@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(360_F_388523383_XAUI5a4VY6JWgaFWfCqWRyp7pS3ltwuG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: center; */
+    
+    /* height: 100%; */
+    background-color:rgb(190, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(94, 94, 94);
+    border-radius: 4px;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    min-height: 500px;
+    /* min-width: /345px; */
+    padding: 10px;
+
+}
+
+.output{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 12px;
+    min-height: 110px;
+    min-width: 319px;
+    max-width: 319px;
+    gap: 5px;
+    overflow:hidden;
+}
+.display{
+    font-size: 40px;
+    
+    /* overflow-wrap:anywhere; */
+    text-align: end;
+}
+
+#display2{
+    font-size: 20px;
+    opacity: 0.33;
+}
+.input{
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+    min-height: 350px;
+}
+table{
+    font-size: 30px;
+    border-spacing: 12px;
+}
+td{
+    background-color: rgb(222, 255, 255);
+    border: none;
+    box-shadow:1px 1px 4px gray;
+    padding: 15px;
+    text-align: center;
+    width: 30px;
+    /* height: 10px; */
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+td:hover{
+    cursor: pointer;
+}
+
+.bluecol{
+    background-color: rgb(116, 255, 250);
+}
+
+
+/* switch  */
+
+.switch{
+    background-color: black;
+    /* border-radius: 10% 100% 100% 20%; */
+    border-radius: 30px;
+    /* border: 1px solid red; */
+    padding: 5px;
+    width: 170px;
+}
+
+.switch2{
+    /* border: 1px solid violet; */
+    border-radius: 30px;
+    background-color: white;
+    /* color:rgb(51, 51, 51) */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 2px 20px;
+}
+.left{
+    background-color: yellow;
+}
